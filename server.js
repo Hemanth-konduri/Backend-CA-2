@@ -31,8 +31,6 @@ app.get("/userDetails", (req, res)=>{
         return res.status(500).send({message:"Password length should be greater than 8 or less than or equal to 16"})
        }
         
-            
-
     }catch(error){
         return res.status(500).send({message:"Something went wrong"})
 
